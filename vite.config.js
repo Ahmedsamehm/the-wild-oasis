@@ -8,9 +8,9 @@ export default defineConfig({
     react({
       babel: {
         plugins: [["babel-plugin-react-compiler"]],
-        base: "/the-wild-oasis",
       },
     }),
     tailwindcss(),
   ],
+  base: "/the-wild-oasis",
 });

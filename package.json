@@ -1,0 +1,46 @@
+{
+  "name": "the-wild-oasis",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "@tailwindcss/vite": "^4.0.5",
+    "@tanstack/react-query": "^5.66.9",
+    "@tanstack/react-query-devtools": "^5.66.9",
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.8",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.475.0",
+    "react": "19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-hot-toast": "^2.5.2",
+    "react-router-dom": "^7.1.5",
+    "react-scan": "^0.0.44",
+    "tailwindcss": "^4.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@tanstack/eslint-plugin-query": "^5.66.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "babel-plugin-react-compiler": "^19.0.0-beta-21e868a-20250216",
+    "daisyui": "^5.0.0-beta.8",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.1.0"
+  }
+}

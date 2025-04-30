@@ -8,11 +8,15 @@ function LoginForm({ isPending, Login }) {
     handleSubmit,
     register,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    defaultValues: {
+      email: "ahmedsameh@test.com",
+      password: "test",
+    },
+  });
 
   const onSubmit = async (data) => {
     Login(data);
-    
   };
 
   return (

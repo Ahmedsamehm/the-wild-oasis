@@ -1,0 +1,1 @@
+import{a as n,j as r}from"./index-BP0JQ-U7.js";function c(l){const t=n.c(3),{children:s,className:o}=l,x=`${o} text-xl sm:text-2xl md:text-xl lg:text-2xl font-bold`;let e;return t[0]!==s||t[1]!==x?(e=r.jsx("h1",{className:x,children:s}),t[0]=s,t[1]=x,t[2]=e):e=t[2],e}export{c as H};

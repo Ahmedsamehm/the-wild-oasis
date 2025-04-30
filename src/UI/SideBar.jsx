@@ -11,6 +11,7 @@ import {
   User,
 } from "lucide-react";
 
+import Logo from "../assets/logo-dark.png";
 function SideBar() {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -61,7 +62,7 @@ function SideBar() {
         ></label>
         <ul className="menu bg-base-200 text-base-content min-h-svh min-w-[60vw] md:min-w-[35vw] lg:min-w-[20vw] p-2">
           <img
-            src="/public/logo-dark.png"
+            src={Logo}
             className="bg-cover object-contain size-40 md:size-40 mx-auto"
             alt="Logo"
           />

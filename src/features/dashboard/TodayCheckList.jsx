@@ -34,7 +34,7 @@ function TodayCheckList() {
             return (
               <li
                 key={guest.id}
-                className="grid grid-cols-4 text-center justify-center items-center  "
+                className="grid grid-cols-4 text-center space-y-1 justify-center items-center  "
               >
                 <p className="badge text-xs max-sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.8rem] xl:text-[1rem]  2xl:text-[0.9rem] badge-primary ">
                   {guest.status === "checkIn" ? "Arriving" : "Departing"}

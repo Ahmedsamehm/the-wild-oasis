@@ -141,7 +141,7 @@ function SalesChart({ bookingDate }) {
   return (
     <div className="  p-4 md:p-6">
       <div className=" w-full ">
-        <Line data={Chart} options={options} width={500} height={300} />
+        <Line data={Chart} options={options}  height={400} />
       </div>
     </div>
   );

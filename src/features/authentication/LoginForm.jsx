@@ -12,7 +12,6 @@ function LoginForm({ isPending, Login }) {
 
   const onSubmit = async (data) => {
     Login(data);
-    console.log(data);
     
   };
 

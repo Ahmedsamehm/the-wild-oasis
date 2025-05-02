@@ -88,7 +88,7 @@ function SalesChart({ bookingDate }) {
       },
       title: {
         display: true,
-        text: `Sales from  ${AllData[AllData.length - 1]?.labels} to ${AllData[0]?.labels}, 2025 `,
+        text: `Sales from  ${AllData[AllData.length - 1]?.labels || "No Date"} to ${AllData[0]?.labels || "No Date"}, 2025 `,
         color: "#ffffff", // White text for dark mode
         font: {
           size: 16,
@@ -139,10 +139,8 @@ function SalesChart({ bookingDate }) {
   };
 
   return (
-    <div className="  p-4 md:p-6">
-      <div className=" w-full ">
-        <Line data={Chart} options={options}  height={400} />
-      </div>
+    <div className=" size-auto p-4 md:p-6">
+      <Line data={Chart} options={options} height={350} />
     </div>
   );
 }

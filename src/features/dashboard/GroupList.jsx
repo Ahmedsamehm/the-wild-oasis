@@ -19,21 +19,21 @@ function GroupList({ bookingDate, cabins }) {
     (numDay * cabins?.length);
 
   return (
-    <ul className="flex flex-wrap gap-2 md:gap-4 lg:gap-8 items-center justify-center">
+    <ul className="flex flex-wrap gap-2 md:gap-4  lg:gap-8 items-center justify-center">
       <Card
-        icon={<BriefcaseBusiness className="w-8 h-8 mr-4 shrink-0" />}
+        icon={<BriefcaseBusiness className="size-8 mr-4 shrink-0" />}
         Children={numBooking}
       />
       <Card
-        icon={<CircleDollarSign className="w-8 h-8 mr-4 shrink-0" />}
+        icon={<CircleDollarSign className="size-8 mr-4 shrink-0" />}
         Children={`$ ${Sales}`}
       />
       <Card
-        icon={<Calendar className="w-8 h-8 mr-4 shrink-0" />}
+        icon={<Calendar className="size-8 mr-4 shrink-0" />}
         Children={CheckIn}
       />
       <Card
-        icon={<ChartNoAxesColumnIncreasing className="w-8 h-8 mr-4 shrink-0" />}
+        icon={<ChartNoAxesColumnIncreasing className="size-8 mr-4 shrink-0" />}
         Children={Math.round(Occupancy * 100)}
       />
     </ul>

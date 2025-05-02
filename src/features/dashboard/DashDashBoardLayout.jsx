@@ -16,14 +16,14 @@ function DashBoardLayout() {
   return (
     <>
       <GroupList bookingDate={bookingDate} cabins={cabins} />
-      <div className="grid grid-cols-2 gap-x-[1vw]   space-y-[2svh] ">
-        <div className="col-span-2  md:col-span-1 bg-neutral rounded-xl p-3 max-h-[40svh]  md:p-[2vw] lg:p-[1vw] min-h-[10svh] overflow-auto shadow-xl   ">
+      <div className="grid grid-cols-2 gap-x-[1vw]   space-y-5 ">
+        <div className="col-span-2  md:col-span-1 bg-neutral rounded-xl p-3 md:p-6 size-auto   overflow-auto shadow-xl   ">
           <TodayCheckList />
         </div>
-        <div className="col-span-2 md:col-span-1 bg-neutral rounded-xl min-h-[40svh]   ">
+        <div className="col-span-2 md:col-span-1 bg-neutral rounded-xl size-auto   ">
           <ChartGraph bookingDate={bookingDate} numDay={numDay} />
         </div>
-        <div className="col-span-2  bg-neutral rounded-xl min-h-[40svh]   ">
+        <div className="col-span-2  bg-neutral rounded-xl size-auto ">
           <SalesChart numDay={numDay} bookingDate={bookingDate} />
         </div>
       </div>

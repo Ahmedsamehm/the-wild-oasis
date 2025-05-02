@@ -7,8 +7,8 @@ function Cabins() {
   return (
     <>
       <header className="flex flex-col md:flex-row justify-between items-center gap-2 w-full">
-        <Header className="w-full md:w-1/3 lg:w-1/4">Cabins</Header>
-        <ul className="flex w-full md:w-2/3 lg:w-3/4 items-center gap-2">
+        <Header className="w-full md:w-xs lg:w-sm">Cabins</Header>
+        <ul className="flex w-full  md:max-lg:max-w-2xl gap-2">
           <CabinTableOperations />
         </ul>
       </header>

@@ -7,8 +7,8 @@ function DashBoard() {
   return (
     <>
       <header className="flex flex-col md:flex-row justify-between items-center gap-2 w-full">
-        <Header className="w-full md:w-1/3 lg:w-1/4">Dashboard</Header>
-        <div className="flex w-full md:w-2/3 lg:w-3/4">
+        <Header className="w-full md:w-sm lg:w-md">Dashboard</Header>
+        <div className="flex w-full  md:max-lg:max-w-md xl:max-w-lg">
           <Filter
             filterField="Last"
             options={[

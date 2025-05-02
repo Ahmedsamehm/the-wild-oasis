@@ -60,10 +60,11 @@ function SideBar() {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-base-200 text-base-content min-h-svh min-w-[60vw] md:min-w-[35vw] lg:min-w-[20vw] p-2">
+        {/* min-w-[60vw] md:min-w-[35vw] lg:min-w-[20vw] */}
+        <ul className="menu bg-base-200 text-base-content  size-60 md:size-70  lg:size-55 xl:size-70 2xl:size-100  min-h-screen p-2">
           <img
             src={Logo}
-            className="bg-cover object-contain size-40 md:size-40 mx-auto"
+            className="bg-cover object-contain size-40 mx-auto"
             alt="Logo"
           />
           {links.map((Link, index) => {

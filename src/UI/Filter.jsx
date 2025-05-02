@@ -1,7 +1,7 @@
-import React from "react";
+
 import { useSearchParams } from "react-router-dom";
 import LinksGroups from "./LinksGroups";
-import Sort from "./Sort";
+
 
 function Filter({ filterField, options }) {
   const [SearchParams, setSearchParams] = useSearchParams();
